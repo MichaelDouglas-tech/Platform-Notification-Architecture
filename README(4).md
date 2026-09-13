@@ -765,6 +765,9 @@ Delete proof-of-concept resources when they are no longer required. Remove resou
 
 Never delete a shared or production resource merely because its name resembles a proof-of-concept resource. Verify the exact resource ARN, account, Region, tags, and dependencies first.
 
+<img width="736" height="724" alt="image" src="https://github.com/user-attachments/assets/d4a5962e-5dae-4294-b46d-be3f79e97175" />
+
+
 ## Conclusion
 
 I designed the AWS Notification Platform to give multiple applications one secure and consistent method for sending Email, SMS, and Push Notifications. API Gateway and Lambda provide controlled request ingestion. EventBridge and SQS provide routing, buffering, retry processing, and channel isolation. Amazon SES and Amazon SNS provide managed notification delivery, while DynamoDB stores templates, preferences, idempotency records, endpoint references, and delivery status.
